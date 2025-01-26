@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto";
+   
+}
+ul {
+    list-style: none;
+}
+.header-about_container {
+    background-color: var(--color-background-dark);
+}
+.header-about-content_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 9vh;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header-nav-links-container a:hover {
+    text-decoration: underline;
+}
+.about-title {
+    text-align: center;
+    color:  var(--color-text-hero-main);
+   
+}
+.header-nav-links-container {
+    display: flex;
+    gap: 20px;
+}
+
+a.header-nav_about, .header-nav_menu, .header-nav_home{
+    font-size: var( --font-size-secondary);
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.main-about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+    margin: 8%;
+}
+
+.main-title-about {
+    color: var( --color-background-dark);
+    font-size: var(--font-size-hero-main);
+}
+.main-paragraph-about {
+    font-weight: var(--font-weight-light-italic);
+    font-size: var(--font-size-secondary);
+    color: var( --color-quote-text);
+    margin-top: 4%;
+}
+
+@media (max-width: 883) {
+    .header-about_back-to-home {
+    margin-top: -43px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-about-content_container {
+        padding: 5px;
+    }
+    .about-title {
+        padding-right: 0;
+    }
+    .main-about-container {
+        width: 75%;
+        margin: 5%;
+    }
+    a { font-size: var(--font-size-tertiary); 
+    }
+}   
+
+
+
+@media (max-width: 480px) {
+    .header-about-content_container {
+        flex-direction: column;
+        height: auto;
+        padding: 5px;
+    }
+    .about-title {
+        font-size: var(--font-size-secondary);
+        padding-right: 0;
+    }
+    .header-about_back-to-home {
+        font-size: 14px; 
+    }
+    .main-about-container {
+        width: 90%;
+        margin: 5%;
+    }
+    .main-title-about {
+        font-size: var(--font-size-hero-secondary);
+    }
+    .main-paragraph-about {
+        font-size: var(--font-size-tertiary);
+    }
+}
