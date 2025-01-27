@@ -55,7 +55,7 @@ a.header-nav_about, .header-nav_menu, .header-nav_home{
 .hero-container {
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 auto;
     padding: 3% 8%;
 }
@@ -180,6 +180,7 @@ p.hero-paragraph {
         }
         .hero-content_container {
             margin-bottom: 20px;
+            width: 100%;
         }
         .hero-title {
             font-size: 28px;
