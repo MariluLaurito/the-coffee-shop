@@ -30,7 +30,7 @@ ul {
 .header-nav-logo_container {
     display: flex;
     margin-right: auto;
-    align-items: flex-end;
+    align-items: center;
 }
 .header-nav_logo {
     font-size: 24px;
@@ -152,11 +152,8 @@ p.hero-paragraph {
     }
 }
 @media (max-width: 883px) {
-    .header-container {
-      height: 0;
-    }
     .header-nav_container {
-        padding: 0;
+       
     }
     p.hero-paragraph {
         margin-bottom: 2%;
