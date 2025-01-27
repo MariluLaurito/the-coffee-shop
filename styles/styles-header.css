@@ -117,12 +117,9 @@ p.hero-paragraph {
 }
 .random-info-wrap-container {
     display: flex;
-    /*justify-content: space-between;*/ 
-    /*flex-wrap: wrap;*/
     width: 100%;
     justify-content: center;
     gap: 41px;
-    /*max-width: 1200px;*/ 
 }
 .article-randominformation-main_container {
     max-width: calc(18% - 4px); 
