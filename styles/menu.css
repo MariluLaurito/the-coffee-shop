@@ -13,22 +13,23 @@ ul {
 
 .header-menu_container {
     background-color: var(--color-background-dark);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 1% 11%;
 }
 
 .header-menu-content_container {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 9vh;
-    padding-left: 10px;
-    padding-right: 10px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 100%;
 }
-
 
 h1.menu-title {
     text-align: center;
     color:  var(--color-text-hero-main);
-    padding-right: 109px;
+    margin-right: auto;
 }
 .header-nav-links-container {
     display: flex;
@@ -130,7 +131,6 @@ a.header-nav_about, .header-nav_menu, .header-nav_home{
 
 @media (max-width: 480px) {
     .header-menu-content_container {
-        flex-direction: column;
         height: auto;
         padding: 5px;
     }
@@ -139,7 +139,6 @@ a.header-nav_about, .header-nav_menu, .header-nav_home{
     }
     h1.menu-title {
         font-size: var(--font-size-secondary);
-        padding-left: 90px;
     }
     .section-card-container_menu {
         gap: 10px; 
