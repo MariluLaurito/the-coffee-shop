@@ -159,9 +159,6 @@ p.hero-paragraph {
     .header-nav_container {
         padding: 0;
     }
-    h1.hero-title {
-        font-size: 2em;
-    }
     p.hero-paragraph {
         margin-bottom: 2%;
         text-align: justify;
