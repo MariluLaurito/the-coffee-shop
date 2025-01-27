@@ -1,15 +1,56 @@
-@font-face {
-    font-family: 'Roboto';
-    src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
 body {
     font-family: 'Roboto';
-    display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
     background-color: #ebebee;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-about_container {
+    background-color: var(--color-background-dark);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 1% 11%;
+}
+.header-about-content_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 100%;
+}
+.header-nav-logo_container {
+    margin-right: auto;
+}
+.header-nav-links-container a:hover {
+    text-decoration: underline;
+}
+
+.header-nav-links-container {
+    display: flex;
+    gap: 20px;
+}
+
+a.header-nav_about, .header-nav_menu, .header-nav_home{
+    font-size: var( --font-size-secondary);
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4%;
 }
 
 .container {
